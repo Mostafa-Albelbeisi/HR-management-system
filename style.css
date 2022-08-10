@@ -8,10 +8,9 @@
     scroll-behavior: smooth;
 }
 
-header{
-    background-color: darkgray;
+header {
+    background-color: #000016;
     width: 100%;
-    position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -19,7 +18,7 @@ header{
     padding: 10px 200px;
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -27,14 +26,16 @@ header{
     font-size: 1.8em;
     margin-right: 53%;
 }
-.navigation a{
+
+.navigation a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
 }
-.navigation a:hover{
+
+.navigation a:hover {
     color: #601cfc;
 }
 
@@ -42,8 +43,13 @@ header{
 .footer {
     background-color: #000016;
     color: #fff;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
     padding: 2em;
     display: flex;
+    height: 60px;
+    position: fixed;
     justify-content: space-between;
 }
 
@@ -60,6 +66,7 @@ header{
 .footer .social-icons a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
+    color: #fff;
 }
 
 @media (max-width:1023px) {

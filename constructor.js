@@ -17,33 +17,33 @@ function AllEmploye(EmployeeName, Department, EmployeeSalary) {
   };
 } //end the employe function
 
-const employee0 = new AllEmploye(
-  "Ghazi Samer",
-  "Administration",
-  salary(1500, 2000)
-);
-const employee1 = new AllEmploye(
-  "Lana Ali",
-  "Finance",
+// const employee0 = new AllEmploye(
+//   "Ghazi Samer",
+//   "Administration",
+//   salary(1500, 2000)
+// );
+// const employee1 = new AllEmploye(
+//   "Lana Ali",
+//   "Finance",
 
-  salary(1500, 2000)
-);
-const employee2 = new AllEmploye(
-  "Tamara Ayoub",
-  "Administration",
-  salary(1500, 2000)
-);
-const employee3 = new AllEmploye(
-  "Safi Walid",
-  "Development",
-  salary(1000, 1500)
-);
-const employee4 = new AllEmploye(
-  "Rana Saleh",
-  "Development	",
-  salary(500, 1000)
-);
-const employee5 = new AllEmploye("Hadi Ahmad", "Finance", salary(1000, 1500));
+//   salary(1500, 2000)
+// );
+// const employee2 = new AllEmploye(
+//   "Tamara Ayoub",
+//   "Administration",
+//   salary(1500, 2000)
+// );
+// const employee3 = new AllEmploye(
+//   "Safi Walid",
+//   "Development",
+//   salary(1000, 1500)
+// );
+// const employee4 = new AllEmploye(
+//   "Rana Saleh",
+//   "Development	",
+//   salary(500, 1000)
+// );
+// const employee5 = new AllEmploye("Hadi Ahmad", "Finance", salary(1000, 1500));
 
 employee0.printEmployee();
 employee1.printEmployee();
