@@ -9,12 +9,12 @@ function AllEmploye(EmployeeName, Department, EmployeeSalary) {
   this.salary = EmployeeSalary;
   arr.push(this);
 
-  AllEmploye.prototype.printEmployee = function () {
-    // console.log(`Employee name: ${this.EmployeeName} : Department: ${this.Department} : Salary ${this.EmployeeSalary}JD`)
-    document.write(
-      `<p> Employee name: ${this.EmployeeName} <br> Department: ${this.Department} <br> Salary: ${this.salary}JD</p>`
-    );
-  };
+  // AllEmploye.prototype.printEmployee = function () {
+  //   // console.log(`Employee name: ${this.EmployeeName} : Department: ${this.Department} : Salary ${this.EmployeeSalary}JD`)
+  //   document.write(
+  //     `<p> Employee name: ${this.EmployeeName} <br> Department: ${this.Department} <br> Salary: ${this.salary}JD</p>`
+  //   );
+  // };
 } //end the employe function
 
 const employee0 = new AllEmploye(

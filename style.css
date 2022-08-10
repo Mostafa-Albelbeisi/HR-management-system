@@ -11,7 +11,6 @@
 header{
     background-color: darkgray;
     width: 100%;
-    position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -42,8 +41,11 @@ header{
 .footer {
     background-color: #000016;
     color: #fff;
+    width: 100%;
+    bottom: 0;
     padding: 2em;
     display: flex;
+    height: 60px;
     justify-content: space-between;
 }
 
