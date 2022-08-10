@@ -73,7 +73,7 @@ function AllEmployee(img, fullName, id, department, level, salary) {
 
 //make text
 const hel = document.createElement('h2');
-hel.textContent = (`This is employee card `);
+hel.textContent = ("This is employee card");
 hel.style.textAlign = "center";
 body[0].appendChild(hel);
 
